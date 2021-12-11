@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    box-sizing: border-box;   
+    
+}
+body{
+  background-image: url(/img/IMG-20211205-WA0012.jpg);
+  /* background-repeat: no-repeat;
+   */
+}
+#header{
+    background-color: darkolivegreen;
+    border: 30px solid white;
+    border-width: 3px;
+    text-align: center;
+}
+.header2{
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.header2 li{
+    width: 300px;
+    border-radius: 3px;
+
+}

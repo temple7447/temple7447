@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    background-color: blue;
+    margin: auto;
+}
+img{
+    height:auto;
+    width: auto;
+    margin-right:100%;
+    margin-bottom: 0;
+    border:2px solid black;
+    border-width: 4px;
+}
+
+body{
+    margin: 0;
+    background-image: url("/img/3547002.jpg");
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.main-body{
+    background-image: url("/img/school-banner-textured-blackboard-background-260nw-1927838306.jpg");
+    text-align: center;
+    position: relative;
+    margin-bottom:auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.nav-container{
+    display: inline-flex;
+    list-style: none;
+    color:white;
+}
+.nav-container li{
+    width: 180px;
+    margin:auto;
+    padding: 15px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.homelist, .nav-container li:hover
+{
+    background-color: gray;
+    border-radius: 3px;
+}
+i{
+    margin-right: 2px;
+}
+.sub-mains{
+    margin-right: auto;
+   position: absolute;
+   display:none;
+}
+.nav-container li:hover .sub-mains{
+    display: block;
+    position: absolute;
+    background-color: green;
+}
+.nav-container li:hover .UNI {
+    display: block;
+    margin: 3px;
+}
+.nav-container li:hover .UNI li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.nav-container li:hover .UNI li:last-child{
+    border-bottom: none;
+}
+.nav-container li:hover .UNI li a:hover{
+    color: black;
+}
+.university{
+    display: none;
+}
+.hover-me:hover .university{
+    position:absolute;
+    display: block;
+    margin: top 10px;
+    margin-left: 143.5px;
+    background-color: green;
+}
+.hover-me:hover .university ul{
+    color: white;
+    list-style: none;
+
+}
